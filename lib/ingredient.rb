@@ -6,5 +6,4 @@ class Ingredient
     @unit = unit
     @calories = calories
   end
-
 end
