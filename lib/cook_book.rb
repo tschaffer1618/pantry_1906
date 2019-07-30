@@ -21,8 +21,8 @@ class CookBook
         ingredient_hash[:ingredient] = ingredient.name
         ingredient_hash[:amount] = amount.to_s + " " + ingredient.unit
         recipe_hash[:details][:ingredients] << ingredient_hash
-        recipe_hash[:details][:total_calories] = recipe.total_calories
       end
+      recipe_hash[:details][:total_calories] = recipe.total_calories
       summary_array << recipe_hash
     end
     summary_array
